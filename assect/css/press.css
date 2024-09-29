@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.press-area{
+    margin: 0 auto;
+}
+.Data {
+    font-weight: 800;
+    color: #000;
+    margin-top: 40%;
+}
+.press-img{
+    width: 100%;
+}
+.col-md-2{
+    margin-top: 3% !important;
+}
+.Redio{
+    color: #FE8F1C;
+}
+.box-area{
+    margin-top: 5%; 
+}
+.Written{
+    color: #FE8F1C;
+}
+.press-div{
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 991px){
+    .Data {
+        margin-top: 5%;
+    }
+    .card{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .Data {
+        margin-top: 5%;
+    }
+  
+}

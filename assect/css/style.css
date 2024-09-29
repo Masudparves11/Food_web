@@ -1,0 +1,682 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@300;400;700&family=Sora:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Sora", sans-serif;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 15px;
+    color: #4b4b4b;
+    margin-left: -10% !important;
+}
+
+.back{
+    background-image: url(../img/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100dvh;
+}
+.home{
+    color:#87C721 !important;
+    font-weight: 600;
+}
+.home:hover{
+    color: #000 !important;
+    transition: .9s;
+    text-decoration: underline;
+}
+.button-area{
+  background-color: #87C721;
+  border-radius: 5px;
+  margin-top: -6px;
+}
+.button-area1{
+  padding: 7px 40px;
+  font-size: small;
+}
+.button-area1:hover{
+    background-color: #fff;
+    border:  1px solid #000;
+    transition: .9s;
+}
+
+.hero_bg{
+    background-image: url(../img/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.table{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.table_cell{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    vertical-align: middle;
+}
+.hero_content{
+    display: grid;
+    place-items: center;
+}
+.Produce{
+    margin-top: 15%;
+}
+.The-Produce{
+    color:#58890a;
+    font-family: "Courgette", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+}
+.The-Produce1{
+    color:#58890a;
+    font-family: "Courgette", cursive;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+}
+.Fash{
+    background-color:#87C721;
+    padding: 0 10px;
+    box-shadow: 1px 1px 1px 1px #a4a3a3;
+}
+.high{
+    background-color:#87C721;
+    padding: 0 10px;
+    box-shadow: 1px 1px 1px 1px #a4a3a3;
+}
+
+.img{
+    margin-top: 10%;
+    padding: 5%;
+    background-color:#D9ECCE;
+    border-radius: 10px;
+}
+.card1{
+    margin: 0 auto;
+}
+.bodar{
+    border: 2px solid #fff;
+}
+.food1{
+    margin-top: 10%;
+}
+.food{
+    margin-left: 10%;
+    padding: 5%;
+}
+.img1{
+    margin-top: 10%;
+    padding: 5%;
+    background-color:#FEEDA6;
+    border-radius: 10px;
+}
+.bnt-area{
+    margin-top: -20px;
+}
+.Vegetables-bnt{
+    border: 2px solid #fff;
+    background-color: #BECA0D;
+    font-size: small;
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+.Vegetables-bnt:hover{
+    background-color: #fff;
+    transition: .9s;
+}
+.Vegetables-bnt1{
+    border: 2px solid #fff;
+    background-color: #F8BD1A;
+    font-size: small;
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+.Vegetables-bnt:hover{
+    background-color: #fff;
+    transition: .9s;
+}
+.Vegetables-bnt1:hover{
+    background-color: #fff;
+    transition: .9s;
+}
+
+
+.back1{
+    margin-top: 5%;
+    width: 100%;
+    height: 430px;
+    background-image: url(../img/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.online-shoping{
+    text-align: center;
+    color: #fff;
+}
+.online{
+    padding-top: 25px;
+}
+.shoping-info{
+    font-size: small;
+}
+.fruti{
+    font-size: small;
+    border:  1px solid #fff;
+    color: #fff;
+    padding: 7px 30px;
+}
+.fruti:hover{
+    color: #000;
+    background-color: #fff;
+    transition: .9s;
+}
+.food2 {
+    width: 19%;
+    margin-top: 5px;
+}
+
+.Featured-area {
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    margin-left: 33%;
+    gap: 20px;
+}
+.dag{
+    width: 50px;
+    height: 3px;
+    background-color: #b5eb5f;   
+}
+
+.text-prices {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: space-around;
+}
+.Banana {
+    margin-left: 36px;
+}
+.prices{
+  margin-top: 3%;
+}
+.prices1{
+    padding: 10px 30px;
+    background-color: #F5F5F8;
+}
+.fa-cart-shopping{
+    color: #87C721;
+    font-size: 20px;
+}
+
+.off {
+    margin-top: 4%;
+    background-color: #e6e7e6;
+}
+.cashews0{
+    margin-top: -15%;
+}
+
+.Get{
+  margin-top: 20%;
+}
+.Get50{
+    color: #2eb540;
+}
+.get-info{
+    font-size: small;
+}
+.shoping-now{
+    margin-top: 5%;
+}
+.now{
+    font-size: small;
+    border: 1px solid #fff;
+    background-color: #95cb3e;
+    color: #fff;
+    padding: 8px 22px;
+}
+.now:hover{
+    background-color: #fff;
+    transition: .9s;
+}
+.hight{
+    height: 20px;
+}
+
+.img-back{
+    background-image: url(../img/back.jpg);
+}
+.about-heard {
+    background-color: #F7F2EC;
+    height: 500px;
+}
+.about-bodar{
+    padding-top: 5%;
+}
+.bodar-abut{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 40px 0px 50px;
+    background-color: #fff;
+}
+.about-img{
+    margin: 0 auto;
+    margin-top: -10%;
+    text-align: center;
+}
+
+.about1{
+    margin:0 auto;
+}
+.about-text{
+  margin-top: 10%;
+}
+.About-Us{
+    color: #87C721;
+}
+.abuot-textinfo{
+    margin-top: 3%;
+    font-size: small;
+}
+.incon1 {
+    display: flex;
+    gap: 10px;
+   padding: 3px 0;
+}
+.incon1-text{
+    font-size: 13px;
+}
+
+.fa-circle-check{
+  color: #2eb540;
+}
+.about-bnt{
+    margin-top: 3%;
+}
+.about-bnt1{
+    font-size: small;
+    text-transform: uppercase;
+    color: #fff;
+    background-color:#C27B3B;
+    padding: 8px 20px;
+    border-radius: 10px 0px 10px 0px;
+}
+.about-bnt1:hover{
+    background-color: #fff;
+    border: 1px solid #000;
+    transition: .9s;
+}
+.choose-header {
+    text-align: center;
+}
+.Choose-text{
+    font-size: small;
+}
+.Choose{
+  margin-top: 5%;
+}
+ .fa-cart-plus{
+   color: #3EA421;
+   font-size: 50px;
+   margin-top: 5%;
+}
+.Product-text{
+    margin-top: 10px;
+}
+.Product-text1{
+    font-size: small;
+}
+.fa-truck{
+    font-size: 50px;
+    margin-top: 5%;
+    color: #C6854D;
+}
+.fa-cc-visa{
+    font-size: 50px;
+    margin-top: 5%;
+    color: #e67979;
+}
+.info-header{
+    background-color: #F7F2EC;
+    text-align: center;
+}
+.color{
+    background-color: #F7F2EC;
+    height: 50px;
+}
+.info-area {
+    padding-top: 5%;
+}
+.nambr{
+    margin-top: 5%;
+}
+.info-incon{
+    display: flex;
+    gap: 10px;
+    margin-left: 20%;
+}
+.info-incon1{
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.fa-facebook{
+    margin-top: 10px;
+    font-size: 20px;
+    color: blue;
+}
+.fa-facebook:hover {
+    transform: scale(1.5);
+  }
+.fa-twitter{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(48, 148, 224);
+}
+.fa-twitter:hover {
+    transform: scale(1.5);
+  }
+.fa-instagram{
+    margin-top: 10px;
+    font-size: 20px;
+    color: red;
+}
+.fa-instagram:hover {
+    transform: scale(1.5);
+  }
+
+.all-info{
+    text-align: left;
+    margin-left: 20%;
+}
+.text_info{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.text_info1{
+    text-align: left;
+    margin-left: 20%;
+}
+.btn-group{
+    margin-top: 10%;
+    border-radius: 10px 0px 10px 0px;
+}
+.Email{
+    background-color: #fff;
+    border-radius: 10px 0px 10px 0px;
+    font-size: small;
+    padding: 10px 45px;
+}
+.Email:hover{
+    background-color: #41e720;
+    color:#fff;
+    transition: .9s;
+}
+.Sign{
+    background-color:  #41e720;
+    border-radius: 10px 0px 10px 0px;
+    font-size: small;
+    padding: 10px 15px;
+}
+.Sign:hover{
+    background-color: #fff;
+}
+
+.Power2{
+    padding: 2%;
+}
+.Power-header{
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1250px){
+    .about-heard {
+        background-color: #F7F2EC;
+        height: 550px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 991px){
+    .hero_bg{
+        background-image: url(../img/about.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    .Produce{
+        text-align: center;
+        margin-top: 30%;
+        width: 100%;
+    }
+    .back1{
+        width: 100%;
+        height: 330px;
+      
+    }
+    .Featured-area {
+        margin-top: 10%;
+        margin-left: 25%;
+        gap: 20px;
+    }
+    .text-prices {
+        gap: 0px;
+        margin-left: -27px;
+    }
+    .Tomot{
+        width: 100%;
+       }
+       .Banana {
+        width: 55%;
+    }
+       .Get{
+        margin-top: 8%;
+      }
+      .fa-cart-shopping {
+       margin-left: -30%;
+    }
+
+    .about-heard {
+        background-color: #F7F2EC;
+        height: 500px;
+    }
+    .about-bodar {
+        padding-top: 4%;
+    }
+    .about-heard {
+        background-color: #F7F2EC;
+        height: 450px;
+    }
+    .about1 {
+        width: 100%;
+        margin-top: 6%;
+    }
+    .about-text {
+        margin-top: 2%;
+    }
+    .food{
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width: 768px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: -0% !important;
+    }
+    .hero_bg{
+        background-image: url(../img/back3.jpg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    .food1 {
+        margin-top: 0%;
+        width: 100%;
+    }
+    .The-Produce{
+        font-size: 30px;
+        margin-left: -0%;
+    }
+    .The-Produce1 {
+        font-size: 30px;
+        margin-left: 0%;
+    }
+    .button-area{
+      margin-top: 10px;
+    }
+    .back {
+        height: 100vh;
+    }
+    .Produce{
+        text-align: center;
+        margin-top: 30%;
+        width: 100%;
+    }
+    .img{
+        margin-top: 0%;
+        padding: 0%;
+        
+    }
+    .back1{
+        width: 100%;
+        height: 280px;
+      
+    }
+    .Banana {
+        width: 100%;
+        margin-left: -2px;
+    }
+    .text-prices {
+        gap: 5px;
+    }
+    .Tomot{
+        width: 100%;
+       }
+       .Get{
+        margin-top: 8%;
+      }
+      .dag {
+        width: 50px;
+        height: 3px;
+        background-color: #b5eb5f;
+    }
+    .Featured-area {
+       text-align: center;
+    }
+    .about-heard {
+        background-color: #F7F2EC;
+        height: 700px;
+    }
+    .about1 {
+        width: 100%;
+        margin-top: -26%;
+    }
+    .about-text{
+        margin-left: 10px;
+    }
+    .about-text {
+        margin-top: -7%;
+    }
+    .bodar-abut {
+        width: 100%;
+        height: 620px;
+    }
+    .incon1 {
+        margin-left: 10px;
+    }
+    .info-incon {
+        margin-left: 32%;
+    }
+    .all-info {
+        margin-left: 22%;
+        margin-top: 10px;
+    }
+
+    .food{
+        width: 100%;
+       margin: 0 auto;
+    }
+    .food1{
+        width: 100%;
+    }
+    .about-bnt1 {
+    margin-top: 5%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 483px){
+    .Featured-area {
+        text-align: center;
+        margin-left: 38px;
+        gap: 0px;
+        margin-top: 18%;
+    }
+}

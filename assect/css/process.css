@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.The{
+    font-weight: 800;
+}
+.process-info{
+    text-align: center;
+    margin-top: 2%;
+}
+.process-text{
+    font-size: small;
+    margin-top: 2%;
+}
+.Screen{
+    margin-top: 2%;
+}
+.process-img{
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+.img-process{
+    margin-top: 8%;
+}
+.stpe{
+    text-align: center;
+    margin-top: 5%;
+}

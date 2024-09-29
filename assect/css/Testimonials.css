@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Testimonials-header{
+    background-color: aliceblue;
+}
+.Testimonials-text{
+   text-align: center;
+   padding-top: 5%;
+}
+.Testimonials-area{
+    color: #000;
+}
+.Stores{
+    font-weight: 800;
+    color: #87C721;
+}
+.box{
+    height: 70%;
+    margin-top: 25%;
+    padding: 20px;
+    background-color: #5985C3;
+    border-radius: 0px 0px 30px 30px ;
+}
+.box1{
+    height: 70%;
+    margin-top: 25%;
+    padding: 20px;
+    background-color: #E73D71;
+    border-radius: 0px 0px 30px 30px ;
+}
+.box2{
+    height: 70%;
+    margin-top: 25%;
+    padding: 20px;
+    background-color: #4FBDC0;
+    border-radius: 0px 0px 30px 30px ;
+}
+.box3{
+    height: 70%;
+    margin-top: 25%;
+    padding: 20px;
+    background-color:#E96827;
+    border-radius: 0px 0px 30px 30px ;
+}
+.img-cliends{
+    text-align: center;
+}
+.cliends {
+    margin-top: -40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid#fff;
+}
+.text-cliends{
+    text-align: center;
+     margin-top: 10px;
+     color: #fff;
+}
+.cliends-say{
+    font-size: 12px;
+}

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Privacy_bg{
+    background-color: #F1F4FD;
+    height: 650px;
+}
+.Privacy-box{
+    padding: 20px;
+}
+
+.Privacy{
+  text-align: center;
+  font-weight: 800;
+}
+
+.Policy_area{
+    margin-left: 10%;
+    width: 70%;
+    height: 450px;
+    background-color:#131339;
+    position: relative;
+    border-radius: 30%;
+    margin-top: 5%;
+}
+.Policy_text{
+    position: absolute;
+    background-color: #FAFBFF;
+    width: 100%;
+    height: 400px;
+    margin-left: 20%;
+    margin-top: 20%;
+    border-radius: 5%;
+    padding: 10%;
+}
+.Policy_text1{
+   font-size: small;
+}
+.Policy_text2{
+   font-size: 14px;
+}
+.Policy_text3{
+   font-weight: 700;
+}
+.Policy_img{
+    margin-top: 10%;
+}
+.Allow {
+    background-color: #D5C7EB;
+    font-size: small;
+    padding: 8px 24px;
+    box-shadow: 1px 2px 1px 2px #b2b2d7;
+}
+.Allow:hover{
+    background-color: #131339;
+    color: #fff;
+    transition: .9s;
+    box-shadow: 1px 2px 1px 2px #5353e7;
+}
+
+
+@media screen and (max-width: 991px){
+    .Policy_area{
+        margin-left: 0%;
+        width: 80%;
+        height: 380px;
+        background-color:#131339;
+        position: relative;
+        border-radius: 30%;
+        margin-top: 5%;
+    }
+    .Policy_text{
+        position: absolute;
+        background-color: #FAFBFF;
+        width: 350px;
+        height: 400px;
+        margin-left: 15%;
+        margin-top: 15%;
+        border-radius: 5%;
+        padding: 5%;
+    }
+    .Policy_img{
+       width: 400px;
+       margin-top:25%;
+      }
+}
+
+
+@media screen and (max-width: 768px){
+    .Policy_area{
+        margin-left: 0%;
+        width: 80%;
+        height: 400px;
+        background-color:#131339;
+        position: relative;
+        border-radius: 30%;
+        margin-top: 5%;
+    }
+    .Policy_text{
+        position: absolute;
+        background-color: #FAFBFF;
+        width: 100%;
+        height: 380px;
+        margin-left: 15%;
+        margin-top: 15%;
+        border-radius: 5%;
+        padding: 5%;
+    }
+    .Policy_img{
+        width: 100%;
+        margin-top:5%;
+       }
+       .Privacy_bg{
+        height: 880px;
+    }
+}
+    
+
+@media screen and (max-width: 411px){
+    .Policy_img{
+        width: 100%;
+        margin-top:25%;
+       }
+}

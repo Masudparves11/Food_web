@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_div{
+    position: relative;
+}
+.about {
+    width: 100%;
+    height: 930px;
+    background-image: url(../img/about0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
+.about_header{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: #fff;
+}
+.fa-quote-left{
+ font-size: 24px;
+}
+.fa-quote-right{
+    font-size: 24px;
+   }
+.About-text{
+    margin-top: 2%;
+    font-weight: 800;
+    color: #fff;
+}
+.About-info{
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+.incon-box{
+    border: 1px solid#fff;
+    text-align: left;
+    margin-left: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 1px 1px;
+    background-color: #fff;
+    background-color: rgba(146, 140, 140, 0.2);
+    backdrop-filter: blur(5px);
+}
+.incon1-text{
+  color: #fff;
+}
+.more_bnt{
+   margin-top: 5%;
+}
+.more{
+    font-size:13px !important;
+    background-color: #f6f8f2 !important;
+    padding: 8px 30px !important;
+    border-radius: 1px 7px 1px 7px !important;
+}
+.about2 {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin-left: -10%;
+    margin-top: 34%;
+}
+.img-about{
+    position: relative;
+}
+.img-about1{
+    position: absolute;
+    margin-top: -15%;
+}
+.about3 {
+    width: 35%;
+    margin-left: 33%;
+    border-radius: 2px 20px 2px 20px;
+    border: 5px solid#fff;
+}
+.more:hover{
+ background-color: black !important;
+ color: #fff !important;
+ transition: .9s !important;
+ border: 1px solid #fff;
+}
+
+
+
+@media screen and (max-width: 991px){
+    .about {
+        width: 100%;
+        height: 579px;
+    }
+    .about {
+        width: 100%;
+        height: 1500px;
+    }
+    .display{
+        display: inline-block;
+    }
+    .col-md-6{
+       width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    .about {
+        width: 100%;
+        height: 1040px;
+    }
+    .incon-box {
+       width: 100%;
+       margin: 0 auto;
+    }
+    .about2 {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    .about {
+        width: 100%;
+        height: 1800px;
+    }
+    .display{
+        display: inline-block;
+    }
+    .col-md-6{
+        width: 100%;
+     }
+    
+     
+}
